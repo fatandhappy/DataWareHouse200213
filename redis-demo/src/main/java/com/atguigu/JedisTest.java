@@ -21,6 +21,8 @@ public class JedisTest {
         // 打印结果
         System.out.println(ping);
 
+        System.out.println("Git Git");
+
         Set<String> lll = jedis.smembers("lll");
         System.out.println(lll);
 
